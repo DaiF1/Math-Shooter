@@ -20,12 +20,12 @@ decreases until it reaches 0.
 
 ## Build
 
-The project is build with Microsoft's `cl.exe` compiler.
+The project is built with Microsoft's `cl.exe` compiler.
 
 To build it, open Visual Studio's Developer Command Prompt, go to the root
 folder of the project and type this command:
 ```bash
-cl /nologo /Zi /EHsc /W3 /WX /Iinclude src\\*.cpp /link user32.lib gdi32.lib Winmm.lib /out:Math_Shooter.exe
+cl /nologo /Zi /EHsc /W3 /WX /Iinclude src\*.cpp /link user32.lib gdi32.lib Winmm.lib /out:Math_Shooter.exe
 ```
 
 > The Developer Command Prompt is usually located in
